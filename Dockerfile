@@ -20,4 +20,4 @@ WORKDIR /app
 COPY --from=build /app/out ./
 
 # Set the command that will be launched when the container starts
-ENTRYPOINT ["dotnet", "YourConsoleApp.dll"]
+ENTRYPOINT ["dotnet", "PatientConsoleApp.dll"]

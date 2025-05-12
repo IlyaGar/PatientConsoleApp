@@ -2,7 +2,7 @@
 using System.Text;
 
 var client = new HttpClient();
-client.BaseAddress = new Uri("https://localhost:44395");
+client.BaseAddress = new Uri("http://localhost:8080/patient");
 
 for (int i = 0; i < 100; i++)
 {
