@@ -4,7 +4,7 @@ using System.Text;
 var client = new HttpClient();
 client.BaseAddress = new Uri("https://localhost:44395");
 
-for (int i = 0; i < 3; i++)
+for (int i = 0; i < 100; i++)
 {
     var patient = new
     {
